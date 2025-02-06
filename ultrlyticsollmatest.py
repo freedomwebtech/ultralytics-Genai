@@ -5,7 +5,7 @@ from llama_index.core.llms import ChatMessage, ImageBlock, MessageRole, TextBloc
 from ultralytics import YOLO
 
 # Set up Gemini API
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCkBApCCKznY1OjcSqcvCTMj3ZFXiTR4UI"
+os.environ["GOOGLE_API_KEY"] = ""
 model = YOLO("best.pt")  # Use the trained YOLO model (e.g., detecting Arduino Uno)
 names = model.names
 # Load Gemini model
